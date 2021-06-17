@@ -15,6 +15,7 @@ driver.get("https://www.impfen-saarland.de/service/waitlist_entries")
 
 
 test = True
+
 while(test):
     elem = driver.find_element_by_xpath('//button[text()="Saarbrücken"]')
     # elem = driver.find_element_by_xpath('//button[text()="Impfzentrum Lebach - Nacht-Termine"]')
